@@ -1,0 +1,10 @@
+import java.util.List;
+
+
+public class FiltroDataAbertura extends Filtro{
+
+	@Override
+	public List<Conta> filtra(List<Conta> contas) {
+	}
+
+}

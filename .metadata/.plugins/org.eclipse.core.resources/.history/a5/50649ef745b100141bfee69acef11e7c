@@ -1,0 +1,7 @@
+
+public class TesteDaNotaFiscal {
+	public static void main(String[] args) {
+		
+		NotaFiscal nf = new NotaFiscal(razaoSocial, cnpj, dataDeEmissao, valorBruto, impostos, itens, observacoes)
+	}
+}

@@ -1,0 +1,7 @@
+
+public class EnviadorDeSms {
+	private void enviaPPorSms(NotaFiscal nf) {
+		System.out.println("Enviei por sms");
+		
+	}
+}

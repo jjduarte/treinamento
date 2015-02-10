@@ -1,0 +1,23 @@
+import java.util.Calendar;
+import java.util.List;
+
+
+public class TesteAcoes {
+	public static void main(String[] args) {
+		
+		List<AcaoAposGerarNota> listaAcoes = new ArrayList<>();
+		listaAcoes.add(new EnviadorDeEmail());
+		listaAcoes.add(new NotaFiscalDao());
+		listaAcoes.add(new EnviadorDeSms());
+		listaAcoes.add(new Impressora());
+		listaAcoes.add(new Multiplicador(2.0);
+		
+		NotaFiscalBuilder builder = new NotaFiscalBuilder(listaAcoes);
+		
+
+
+		NotaFiscal nf = builder.paraEmpresa("Calelum").comCnpj("1123").com(new ItemDaNota("item1", 100)).comObservacoes("observacoes").naData(Calendar.getInstance()).constroi();
+		
+		System.out.println(nf.getValorBruto());
+	}
+}

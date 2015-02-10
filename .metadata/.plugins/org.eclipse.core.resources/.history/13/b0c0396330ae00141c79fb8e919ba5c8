@@ -1,0 +1,11 @@
+
+public class TesteFormatador {
+
+	public static void main(String[] args) {
+		Formatador formatador = new Formatador();
+		
+		Conta c1 = new Conta("Joao", 1000.0);
+		Conta c2 = new Conta("Maria", 100.0);
+		
+	}
+}

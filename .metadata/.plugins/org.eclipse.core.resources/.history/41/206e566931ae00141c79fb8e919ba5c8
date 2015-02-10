@@ -1,0 +1,14 @@
+
+public class SemFormatacao implements Resposta {
+
+	@Override
+	public void responde(Requisicao req, Conta conta) {
+		System.out.println("Formatacao finalizada");
+	}
+
+	@Override
+	public void setProxima(Resposta resposta) {
+		//nao tem proxima;
+	}
+
+}

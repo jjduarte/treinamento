@@ -1,0 +1,13 @@
+
+public class ICPP implements Imposto {
+
+	@Override
+	public double calcula(Orcamento orcamento) {
+		if(orcamento.getValor() > 500.0){
+			orcamento.getValor() * 0.07;
+		} else{
+			orcamento.getValor() * 0.05;
+		}
+	}
+
+}

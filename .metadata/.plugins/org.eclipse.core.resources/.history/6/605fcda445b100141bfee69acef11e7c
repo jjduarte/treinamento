@@ -1,0 +1,21 @@
+
+public class CriadorDeNotaFiscal {
+	
+	private String razaoSocial;
+	private String cnpj;
+	
+	private List<ItemDaNota> todosItens = new ArrayList<>();
+	
+	
+	public void paraEmpresa(String razaoSocial){
+		this.razaoSocial = razaoSocial;
+	}
+	
+	public void comCnpj(String cnpj){
+		this.cnpj = cnpj;
+	}
+	
+	public void comItem(ItemDaNota item){
+		todosItens.add(item);
+	}
+}

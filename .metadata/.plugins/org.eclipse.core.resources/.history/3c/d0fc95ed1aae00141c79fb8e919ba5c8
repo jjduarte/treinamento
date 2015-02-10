@@ -1,0 +1,15 @@
+
+public class Arrojado implements Investimento{
+
+	@Override
+	public double calcula(Conta conta) {
+		double chance = new java.util.Random().nextDouble();
+		if(chance <= 0.20)
+			return conta.getSaldo() * 0.05;
+		else if ( chance <= 0.50)
+			return conta.getSaldo() * 0.03; 
+	    else 
+			return conta.getSaldo() * 0.006;
+	}
+
+}

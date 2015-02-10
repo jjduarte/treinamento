@@ -1,0 +1,17 @@
+
+public class Formatador {
+	
+	
+	public void formata(Requisicao req, Conta conta){
+		Resposta r1 = new CSV();
+		Resposta r2 = new XML();
+		Resposta r3 = new Porcento();
+		Resposta r4 = new SemFormatacao();
+
+		
+		r1.responde(req, conta);
+	}
+
+
+	
+}

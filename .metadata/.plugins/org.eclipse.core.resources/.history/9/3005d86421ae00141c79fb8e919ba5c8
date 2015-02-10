@@ -1,0 +1,10 @@
+
+public class CalculadorDeDescontos {
+
+	public double calcula(Orcamento orcamento){
+		//mais de 5 itens, desconto!
+		
+		
+	}
+	
+}

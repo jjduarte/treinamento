@@ -1,0 +1,15 @@
+
+public class CriadorDeNotaFiscal {
+	
+	private String razaoSocial;
+	private String cnpj;
+
+	public void paraEmpresa(String razaoSocial){
+		this.razaoSocial = razaoSocial;
+	}
+	
+	public void comCnpj(String cnpj){
+		this.cnpj = cnpj;
+	}
+	
+}

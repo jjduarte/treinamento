@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class IHIT extends TemplateDeImpostoCondicional {
+
+	private boolean temItemComMesmoNomeNo(Orcamento orcamento) {
+		List<String> itemAux = new ArrayList<>();
+		for (Item item : orcamento.getItens()) {
+			if(itemAux.contains(item.getNome())){
+				return true;
+			} else{
+				itemAux.add(item.getNome());
+			}
+		}
+		return false;
+	}
+
+	
+	protected abstract double minimaTaxacao(Orcamento orcamento) {
+		return orcamento.getValor() * 0.01 * orcamento.getItens().size();
+	}
+
+	
+	protected abstract double maximaTaxacao(Orcamento orcamento) {
+		return orcamento.getValor() * 0.13 * 100.0;
+	}
+
+	
+	protected abstract boolean deveUsarMaximaTaxacao(Orcamento orcamento) {
+		return temItemComMesmoNomeNo(orcamento);
+	}
+
+}

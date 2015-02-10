@@ -1,0 +1,28 @@
+
+public class Negativo implements StatusDaConta{
+
+	@Override
+	public void deposita(Conta conta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void saca(Conta conta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void negativa(Conta conta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void positiva(Conta conta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

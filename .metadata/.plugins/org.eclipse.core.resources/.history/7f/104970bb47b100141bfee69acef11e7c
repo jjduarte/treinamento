@@ -1,0 +1,18 @@
+
+public class TesteDaNotaFiscal {
+	public static void main(String[] args) {
+		
+		NotaFiscalBuilder builder = new NotaFiscalBuilder();
+		builder.paraEmpresa("Paripassu");
+		builder.comCnpj("12.324.678/0001-12");
+		builder.comItem(new ItemDaNota("item 1", 200.0));
+		builder.comItem(new ItemDaNota("item 2", 300.0));
+		builder.comItem(new ItemDaNota("item 3", 400.0));
+		builder.comObservacoes("observacoes");
+		builder.naDataAtual();
+		
+		NotaFiscal nf = builder.constroi();
+		
+		
+	}
+}

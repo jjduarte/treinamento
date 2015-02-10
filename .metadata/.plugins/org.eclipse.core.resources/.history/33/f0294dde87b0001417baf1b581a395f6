@@ -1,0 +1,10 @@
+
+public class Finalizado implements EstadoDeUmOrcamento{
+
+	@Override
+	public void aplicaDescontoExtra(Orcamento orcamento) {
+		throw new RuntimeException("Orcamentos finalizados nao recebem desconto extra");
+	}
+
+	
+}

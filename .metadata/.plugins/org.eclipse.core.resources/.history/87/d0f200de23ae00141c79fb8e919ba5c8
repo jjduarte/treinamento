@@ -1,0 +1,17 @@
+
+public class CalculadorDeDescontos {
+
+	public double calcula(Orcamento orcamento){
+		if(orcamento.getItens().size() > 5){
+			return orcamento.getValor() * 0.1;
+		}
+		else {
+			return PROXIMO DESCONTO;
+			
+		}
+		
+		//em caso contrario
+		return 0;
+	}
+	
+}

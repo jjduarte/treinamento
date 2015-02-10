@@ -1,0 +1,9 @@
+
+public class Arrojado implements Investimento{
+
+	@Override
+	public double calcula(Conta conta) {
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class FiltroDataAbertura extends Filtro{
+
+	@Override
+	public List<Conta> filtra(List<Conta> contas) {
+		ArrayList<Conta> contasFiltradas = new ArrayList<Conta>();
+	}
+
+}

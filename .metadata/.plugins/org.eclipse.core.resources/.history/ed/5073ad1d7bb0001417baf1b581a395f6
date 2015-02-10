@@ -1,0 +1,19 @@
+public class TesteDeImpostosComplexos {
+
+	public static void main(String[] args) {
+		Imposto iss = new ISS(new ICMS( new ICCC( new ImpostoMuitoAlto()) {
+			
+			@Override
+			public double calcula(Orcamento orcamento) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+		})));
+
+		Orcamento orcamento = new Orcamento(500.0);
+
+		double valor = iss.calcula(orcamento);
+
+		System.out.println(valor);
+	}
+}

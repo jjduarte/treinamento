@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;Decorator/src&apos;&#x0D;&#x0A;- Original project: &apos;DesignPatterns&apos;&#x0D;&#x0A;- Destination element: &apos;Decorator/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ICMS.java&#x0D;&#x0A;     CalculadorDeImpostos.java&#x0D;&#x0A;     Imposto.java&#x0D;&#x0A;     Orcamento.java&#x0D;&#x0A;     ICCC.java&#x0D;&#x0A;     ISS.java" description="Copy compilation units" destination="=Decorator/src" element1="/src&lt;{ICMS.java" element2="/src&lt;{CalculadorDeImpostos.java" element3="/src&lt;{Imposto.java" element4="/src&lt;{Orcamento.java" element5="/src&lt;{ICCC.java" element6="/src&lt;{ISS.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1423498997461" units="6" version="1.0"/>
+</session>

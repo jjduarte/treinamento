@@ -1,0 +1,78 @@
+package br.com.paripassu.core.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import br.com.paripassu.api.entidades.Produto;
+import br.com.paripassu.core.dao.interfaces.ProdutoDAO;
+
+public class ProdutoDAOImpl implements ProdutoDAO {
+
+	public static final String INSERIR_PRODUTO = "INSERT INTO en_produtos VALUES( ?, ?)";
+	public static final String ALTERAR_PRODUTO = "UPDATE en_produtos SET nome = ?  where id_produto = ?";
+	public static final String EXCLUIR_PRODUTO = "DELETE * FROM en_produtos WHERE id_produto = ?";
+	public static final String LISTAR_PRODUTO = "SELECT * FROM en_produtos";
+	
+	@Override
+	public void inserir(Connection conn, Produto object) throws Exception {
+		try {
+		   PreparedStatement ps = conn.prepareStatement(INSERIR_PRODUTO);
+		   ps.setLong( 1, object.getIdProduto() );
+		   ps.setString( 2, object.getNome() );
+		   ps.executeUpdate();
+		   ps.close();
+		  }
+		  catch( SQLException e ) {
+		  }
+		
+	}
+
+	@Override
+	public void alterar(Connection conn, Produto object) throws Exception {
+		try {
+			   
+		   PreparedStatement ps = conn.prepareStatement(ALTERAR_PRODUTO);
+		   ps.setLong( 1, object.getIdProduto() );
+		   ps.setString( 2, object.getNome() );
+		   ps.executeUpdate();
+		   ps.close();
+		  }
+		  catch( SQLException e ) {
+		  }
+		
+	}
+
+	@Override
+	public void excluir(Connection conn, Integer id) throws Exception {
+		try {
+		   PreparedStatement ps = conn.prepareStatement(EXCLUIR_PRODUTO);
+		   ps.setLong( 1, id );
+		   ps.executeUpdate();
+		   ps.close();
+		  }
+		  catch( SQLException e ) {
+		  }
+		
+	}
+
+	@Override
+	public List<Produto> listar(Connection conn) throws Exception {
+		try {
+		   PreparedStatement ps = conn.prepareStatement(LISTAR_PRODUTO);
+		   ResultSet rs = ps.executeQuery();
+		   List<Produto> lista;
+		   while(rs.next()){
+			   Produto p = 
+		   }
+		   
+		   ps.close();
+		  }
+		  catch( SQLException e ) {
+		  }
+		return null;
+	}
+
+}

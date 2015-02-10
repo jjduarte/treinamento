@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class FiltroSaldoMaiorQue500Mil extends Filtro{
+
+	@Override
+	public List<Conta> filtra(List<Conta> contas) {
+		List<Conta> contasFiltradas = new ArrayList<>();
+		for (Conta conta : contas) {
+			if (conta.getSaldo() > 500.000) {
+				contasFiltradas.add(conta);
+			}
+		}
+
+		contasFiltradas.addAll(proximo(contas));
+		return contasFiltradas;
+	}
+
+}

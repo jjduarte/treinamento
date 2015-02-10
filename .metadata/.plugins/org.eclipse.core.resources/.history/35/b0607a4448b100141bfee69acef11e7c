@@ -1,0 +1,13 @@
+
+public class ItemDaNotaBuilder {
+	
+	private String nome;
+
+	public ItemDaNota comNome(String nome){
+		this.nome = nome;
+	}
+	
+	public ItemDaNota comValor(double valor){
+		this.valor = valor;
+	}
+}

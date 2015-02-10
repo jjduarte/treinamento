@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class CriadorDeNotaFiscal {
+	
+	private String razaoSocial;
+	private String cnpj;
+	
+	private List<ItemDaNota> todosItens = new ArrayList<>();
+	private double imposto;
+	private double valorBruto;
+	private String observacoes;
+	
+	
+	public void paraEmpresa(String razaoSocial){
+		this.razaoSocial = razaoSocial;
+	}
+	
+	public void comCnpj(String cnpj){
+		this.cnpj = cnpj;
+	}
+	
+	public void comItem(ItemDaNota item){
+		todosItens.add(item);
+		valorBruto += item.getValor();
+		imposto += item.getValor() * 0.05;
+	}
+	
+	public void comObservacoes(String observacoes){
+		this.observacoes = observacoes;
+	}
+}

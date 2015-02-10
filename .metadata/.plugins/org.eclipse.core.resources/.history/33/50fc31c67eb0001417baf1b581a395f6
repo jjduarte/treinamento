@@ -1,0 +1,7 @@
+import java.util.List;
+
+public abstract class Filtro {
+	protected Filtro outroFiltro;
+	
+	public abstract List<Conta> filtra(List<Conta> contas);
+}

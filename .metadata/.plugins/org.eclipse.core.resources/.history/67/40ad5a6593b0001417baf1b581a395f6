@@ -1,0 +1,26 @@
+
+public class Conta {
+	private double saldo;
+	protected StatusDaConta status;
+	
+	public Conta (double saldo){
+		this.saldo = saldo;
+		if(saldo > 0 ){
+			status = new Positivo();
+		} else {
+			status = new Negativo();
+		}
+		
+	}
+	
+	
+	public void deposita(){
+		
+	}
+	
+	public void saca(){
+		
+	}
+
+
+}

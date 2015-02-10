@@ -1,0 +1,9 @@
+
+public class RealizadorDeInvestimentos {
+
+public void realizaCalculo(Conta conta, Investimento investimentoQualquer){
+		
+		double calculo = investimentoQualquer.calcula(conta);
+		System.out.println(calculo);
+	}
+}

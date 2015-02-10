@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class FiltroSaldoMenorQue100 extends Filtro {
+
+	@Override
+	public List<Conta> filtra(List<Conta> contas) {
+		List<Conta> contaAux = new ArrayList<>();
+		for (Conta conta : contas) {
+			if (conta.getSaldo() < 100) {
+				contaAux.add(conta);
+			}
+		}
+
+		return contaAux;
+	}
+
+}

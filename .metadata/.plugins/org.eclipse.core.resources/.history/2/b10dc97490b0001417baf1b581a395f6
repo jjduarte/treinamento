@@ -1,0 +1,9 @@
+
+public interface SaldoDaConta {
+	void deposita(Conta conta);
+	void saca(Conta conta);
+	
+	void negativa(Conta conta);
+	void positiva(Conta conta);
+	
+}

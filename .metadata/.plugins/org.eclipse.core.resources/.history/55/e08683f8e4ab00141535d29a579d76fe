@@ -1,0 +1,40 @@
+package br.com.paripassu.core.dao.impl;
+
+import java.sql.Connection;
+import java.util.List;
+
+import br.com.paripassu.api.entidades.Fornecedor;
+import br.com.paripassu.core.dao.interfaces.FornecedorDAO;
+
+public class FornecedorDAOImpl implements FornecedorDAO {
+
+	public static final String inserirFornecedor = "INSERT INTO en_fornecedor VALUES( ?, ?, ?)";
+	public static final String alterarFornecedor = "UPDATE en_fornecedor SET nome = ? AND id_pais = ?  where id_fornecedor = ?";
+	public static final String excluirFornecedor = "DELETE * FROM en_fornecedor WHERE id_fornecedor = ?";
+	public static final String listarFornecedor = "SELECT * FROM en_fornecedor";
+	
+	@Override
+	public void inserir(Connection conn, Fornecedor object) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void alterar(Connection conn, Fornecedor object) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void excluir(Connection conn, Integer id) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Fornecedor> listar(Connection conn) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

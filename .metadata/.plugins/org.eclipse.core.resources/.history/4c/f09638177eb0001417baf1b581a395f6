@@ -1,0 +1,8 @@
+import java.util.Calendar;
+
+
+public class Conta {
+	private double saldo;
+	private Calendar dataAbertura;
+	
+}

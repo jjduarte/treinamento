@@ -1,0 +1,27 @@
+import javax.management.RuntimeErrorException;
+
+
+public class Aprovado implements EstadoDeUmOrcamento{
+	
+	public void aplicaDescontoExtra(Orcamento orcamento){
+		orcamento.valor -= orcamento.valor * 0.02;
+	}
+
+	@Override
+	public void aprova(Orcamento orcamento) {
+		throw new RuntimeErrorException("Orcamento já esta aprovado!");
+		
+	}
+
+	@Override
+	public void reprova(Orcamento orcamento) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void finaliza(Orcamento orcamento) {
+		// TODO Auto-generated method stub
+		
+	}
+}

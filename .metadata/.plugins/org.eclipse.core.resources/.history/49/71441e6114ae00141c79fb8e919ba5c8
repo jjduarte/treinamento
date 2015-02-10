@@ -1,0 +1,4 @@
+
+public interface Ivestimento {
+	 double calcula (Conta conta);
+}

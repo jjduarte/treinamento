@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+
+public class FiltroDataAbertura extends Filtro{
+
+	@Override
+	public List<Conta> filtra(List<Conta> contas) {
+		ArrayList<Conta> contasFiltradas = new ArrayList<Conta>();
+		for (Conta contas : contas) {
+			if(contas.getDataAbertura().get(Calendar.MONTH) == Calendar.getInstance().get(Calendar.MONTH) && 
+		            contas.getDataAbertura().get(Calendar.YEAR) == Calendar.getInstance().get(Calendar.YEAR)){
+				contasFiltradas.add(contas);
+			}
+		}
+		
+		return contasFiltradas;
+	}
+
+}

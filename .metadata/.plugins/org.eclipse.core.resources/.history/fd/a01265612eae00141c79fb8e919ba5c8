@@ -1,0 +1,17 @@
+
+public class XML implements Resposta {
+
+	private Resposta resposta;
+
+	@Override
+	public void responde(Requisicao req, Conta conta) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setProxima(Resposta resposta) {
+		this.resposta = resposta;
+	}
+
+}

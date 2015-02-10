@@ -1,0 +1,15 @@
+import java.util.Calendar;
+
+
+public class TesteAcoes {
+	public static void main(String[] args) {
+		NotaFiscalBuilder builder = new NotaFiscalBuilder();
+		builder.adicionaAcao(new EnviadorDeEmail());
+		builder.adicionaAcao(new NotaFiscalDao());
+		builder.adicionaAcao(new EnviadorDeSms());
+		builder.adicionaAcao(new Impressora());
+		
+
+		NotaFiscal nf = builder.paraEmpresa("Calelum").comCnpj("1123").com(new ItemDaNota("item1", 100)).comObservacoes("observacoes").naData(Calendar.getInstance()).constroi();
+	}
+}

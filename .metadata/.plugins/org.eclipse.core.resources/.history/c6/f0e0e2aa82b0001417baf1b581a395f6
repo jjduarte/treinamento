@@ -1,0 +1,12 @@
+import java.util.List;
+
+
+public class FiltroSaldoMaiorQue500Mil extends Filtro{
+
+	@Override
+	public List<Conta> filtra(List<Conta> contas) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
