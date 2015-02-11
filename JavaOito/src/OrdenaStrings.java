@@ -11,40 +11,31 @@ public class OrdenaStrings {
 		palavras.add("casa do codigo");
 		palavras.add("caelum ");
 
-		
-		 
-		//Comparator<String> comparador = new ComparadorPorTamanho();
+		// Comparator<String> comparador = new ComparadorPorTamanho();
 
 		// Collections.sort(palavras, comparador);
-//		palavras.sort(comparador);
-		
-		
+		// palavras.sort(comparador);
+
 		palavras.sort((s1, s2) -> {
-				if (s1.length() < s2.length())
-					return -1;
-				if (s1.length() > s2.length())
-					return 1;
-				return 0;
-			});
-			
-		
+			if (s1.length() < s2.length())
+				return -1;
+			if (s1.length() > s2.length())
+				return 1;
+			return 0;
+		});
 
 		System.out.println(palavras);
 
 		// for (String p : palavras) {
 		// System.out.println(p);
 		// }
-		
-		
-		//java7
+
+		// java7
 		// Consumer<String> consumidor = new ImprimeNaLinha();
 		// palavras.forEach(consumidor);
 
-		
-		//lambda ->
+		// lambda ->
 		palavras.forEach(s -> System.out.println(s));
-
-		
 
 	}
 }
