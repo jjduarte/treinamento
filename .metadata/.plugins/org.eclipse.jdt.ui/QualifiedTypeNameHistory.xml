@@ -26,13 +26,11 @@
 <fullyQualifiedTypeName name="Porcento"/>
 <fullyQualifiedTypeName name="TemplateDeImpostoCondicional"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.nio.channels.IllegalSelectorException"/>
 <fullyQualifiedTypeName name="ICCC"/>
 <fullyQualifiedTypeName name="Imposto"/>
 <fullyQualifiedTypeName name="ImpostoMuitoAlto"/>
 <fullyQualifiedTypeName name="IKCV"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="EstadoDeUmOrcamento"/>
 <fullyQualifiedTypeName name="Orcamento"/>
 <fullyQualifiedTypeName name="Reprovado"/>
@@ -41,4 +39,18 @@
 <fullyQualifiedTypeName name="EmAprovacao"/>
 <fullyQualifiedTypeName name="SaldoDaConta"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="ItemDaNotaBuilder"/>
+<fullyQualifiedTypeName name="EnviadorDeEmail"/>
+<fullyQualifiedTypeName name="NotaFiscal"/>
+<fullyQualifiedTypeName name="NotaFiscalBuilder"/>
+<fullyQualifiedTypeName name="EnviadorDeSms"/>
+<fullyQualifiedTypeName name="Impressora"/>
+<fullyQualifiedTypeName name="ItemDaNota"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="Multiplicador"/>
+<fullyQualifiedTypeName name="AcaoAposGerarNota"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="ImprimeNaLinha"/>
+<fullyQualifiedTypeName name="ComparadorPorTamanho"/>
 </qualifiedTypeNameHistroy>
