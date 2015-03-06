@@ -8670,4 +8670,7 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
 	at java.util.TimerThread.mainLoop(Unknown Source)
 	at java.util.TimerThread.run(Unknown Source)
+<<<<<<< HEAD
+>>>>>>> 8885c0f4503d35c57e410d97dfe0611a8c8e995a
+=======
 >>>>>>> 8885c0f4503d35c57e410d97dfe0611a8c8e995a

@@ -14,23 +14,13 @@
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-<<<<<<< HEAD
 			<item value="org.eclipse.ui.newWizard(newWizardId=org.eclipse.ui.wizards.new.folder)"/>
 			<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.jdt.ui.preferences.CodeFormatterPreferencePage)"/>
 			<item value="org.eclipse.jdt.ui.JavaPerspective"/>
-=======
-			<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
-			<item value="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
-			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.jdt.ui.preferences.CleanUpPreferencePage)"/>
-			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.jdt.ui.preferences.CodeFormatterPreferencePage)"/>
->>>>>>> 8885c0f4503d35c57e410d97dfe0611a8c8e995a
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.wizards"/>
-			<item value="org.eclipse.ui.wizards"/>
 			<item value="org.eclipse.ui.commands"/>
-<<<<<<< HEAD
 			<item value="org.eclipse.ui.wizards"/>
 			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.ui.perspectives"/>
@@ -41,16 +31,6 @@
 			<item value="class"/>
 			<item value="code style"/>
 			<item value="java"/>
-=======
-			<item value="org.eclipse.ui.commands"/>
-		</list>
-		<list key="textArray">
-			<item value="class"/>
-			<item value="clas"/>
-			<item value="interface"/>
-			<item value="clean up"/>
-			<item value="formatter"/>
->>>>>>> 8885c0f4503d35c57e410d97dfe0611a8c8e995a
 		</list>
 	</section>
 	<section name="NewWizardAction">
