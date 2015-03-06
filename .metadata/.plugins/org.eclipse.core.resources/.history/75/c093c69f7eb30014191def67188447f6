@@ -1,0 +1,41 @@
+package br.com.paripassu.api.entidades;
+
+public class Produto {
+	
+	private Integer idProduto;
+	private String nome;
+	
+	public Produto() {
+	}
+	
+	public Produto(String nome) {
+		super();
+		this.nome = nome;
+	}
+	public Integer getIdProduto() {
+		return idProduto;
+	}
+	public void setIdProduto(Integer idProduto) {
+		this.idProduto = idProduto;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder("[Produto] ");
+		sb.append(nome);
+		sb.append("\n");
+		sb.append("id: ");
+		sb.append(idProduto);
+		sb.append("\n");
+		String s =  sb.toString();	
+	
+		return s;
+	}
+	
+}

@@ -1,0 +1,4 @@
+1423852238425	Rename method 'cnpjValido'
+1423852258391	Rename method 'primeiroDigitoVerificadorDoCnpj'
+1423852477078	Rename field 'cnpjCredor'
+1423852552057	Rename method 'setCnpjCredor'

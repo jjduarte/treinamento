@@ -1,2 +1,6 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>treinamento - dia 1</message>\r\n</messages>
+BranchProjectTracker__C\:\\Users\\joaol\\git\\servlet-3-e-fundamentos-web\\.git_joao=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="joao"/>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>convert to maven project</message>\r\n<message>commit claspath</message>\r\n<message>Corre\u00E7\u00F5es e implementa\u00E7\u00E3o da Servlet para Fornecedores. </message>\r\n<message>gera\u00E7\u00E3o de testes</message>\r\n<message>Corre\u00E7\u00F5es parte 1</message>\r\n<message>pre revolts do gustavo</message>\r\n<message>Definic\u00E3o Projeto Web e Servlets</message>\r\n<message>implementa\u00E7\u00E3o DAO e Services</message>\r\n<message>treinamento - dia 1</message>\r\n</messages>
 eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
+show_initial_config_dialog=false

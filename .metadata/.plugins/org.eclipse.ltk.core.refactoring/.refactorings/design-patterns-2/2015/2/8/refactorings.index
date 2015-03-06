@@ -1,0 +1,12 @@
+1424286963474	Rename field 'clazzes'
+1424293207516	Copy compilation units
+1424294397950	Rename method 'visita'
+1424294713267	Rename type 'Impressora'
+1424359307157	Extract interface 'Visitor'
+1424359343042	Delete element
+1424359387682	Extract interface 'Visitor'
+1424361350280	Rename type 'Relogio'
+1424361534769	Rename type 'RelogioDoSistema'
+1424361637804	Extract interface 'Rel'
+1424361667427	Rename type 'Relogio'
+1424361679434	Rename type 'Rel'

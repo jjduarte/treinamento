@@ -1,0 +1,37 @@
+1425312860563	Rename local variable 'object'
+1425315115718	Rename local variable 'idFornecedor'
+1425316593853	Rename type 'FornecedorServlet'
+1425317268405	Rename local variable 'classeAcao'
+1425317273967	Rename local variable 'classeAgente'
+1425317538429	Rename type 'Excecuta'
+1425317693213	Rename method 'executa'
+1425319101879	Rename type 'Injeta'
+1425319122372	Rename method 'injeta'
+1425320444393	Rename local variable 'acao'
+1425320453982	Rename local variable 'nomeAcao'
+1425320473189	Rename local variable 'agente'
+1425320479302	Rename local variable 'nomeAgente'
+1425325202374	Rename method 'singleton'
+1425325372941	Rename type 'ConnectionFactory'
+1425399167510	Rename method 'executa'
+1425400129775	Rename resource 'lista.html'
+1425401540043	Rename resource 'lista.jsp'
+1425402486300	Copy file
+1425404612411	Move file
+1425408814107	Rename field 'PAGINA'
+1425503845905	Move packages
+1425503851982	Delete element
+1425503960288	Move 5 resources to 'webapp'
+1425503966101	Delete element
+1425504485531	Delete element
+1425505411705	Move packages
+1425505415558	Delete element
+1425505493333	Move 5 resources to 'webapp'
+1425505496638	Delete element
+1425505578549	Move package
+1425570635165	Delete element
+1425571903539	Delete element
+1425572088845	Delete element
+1425572091756	Delete element
+1425572344215	Delete element
+1425572346917	Copy file

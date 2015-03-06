@@ -1,0 +1,64 @@
+package br.com.paripassu.api.entidades;
+import java.util.Formatter;
+import java.util.List;
+
+
+public class Fornecedor {
+
+	private Integer id;
+	private String nome;
+	private Pais pais;
+	private List<Produto> produtos;
+	
+	public Fornecedor() {
+	}
+	
+	public Fornecedor(String nome, Pais pais, List<Produto> produtos) {
+		super();
+		this.nome = nome;
+		this.pais = pais;
+		this.produtos = produtos;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public Pais getPais() {
+		return pais;
+	}
+	public void setPais(Pais pais) {
+		this.pais = pais;
+	}
+	public List<Produto> getProdutos() {
+		return produtos;
+	}
+	public void setProdutos(List<Produto> produtos) {
+		this.produtos = produtos;
+	}
+	
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder("[Fornecedor]");
+		sb.append("\n");
+		sb.append("nome: ");
+		sb.append(nome);
+		sb.append("\n");
+		sb.append("pais: ");
+		sb.append(pais);
+		sb.append("\n");
+		sb.append("Produtos: ");
+		sb.append(produtos);
+		String s =  sb.toString();	
+	
+		return s;
+	}
+}

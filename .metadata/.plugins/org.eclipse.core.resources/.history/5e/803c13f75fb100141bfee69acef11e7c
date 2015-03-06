@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -19,4 +20,27 @@ public class OrdenaStrings {
 
 public class ComparadorPorTamanho implements Comparator<String>{
 	
+=======
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class OrdenaStrings {
+	public static void main(String[] args) {
+		
+		List<String> palavras = new ArrayList<>();
+		palavras.add("alura online");
+		palavras.add("editora casa do codigo");
+		palavras.add("caelum ");
+		
+		Collections.sort(palavras);
+		
+		System.out.println(palavras);
+	}
+}
+
+
+public class ComparadorPorTamanho implements Comparator<String>{
+	
+>>>>>>> 8885c0f4503d35c57e410d97dfe0611a8c8e995a
 }

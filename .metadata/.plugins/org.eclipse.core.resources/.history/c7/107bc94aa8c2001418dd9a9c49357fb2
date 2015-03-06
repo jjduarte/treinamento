@@ -1,0 +1,9 @@
+
+@Resource
+public class BemvindoController {
+	private Result result;
+	
+	public BemvindoController(Result result){
+		this.result = result;
+	}
+}

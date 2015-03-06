@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;nome22&apos; from expression &apos;nome2&apos;&#x0D;&#x0A;- Original project: &apos;JavaOito&apos;&#x0D;&#x0A;- Variable name: &apos;nome22&apos;&#x0D;&#x0A;- Destination method: &apos;Curso.Curso()&apos;&#x0D;&#x0A;- Variable expression: &apos;nome2&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;nome22&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;{ExemploCursos.java" name="nome22" replace="true" selection="171 5" stamp="1423677596463" version="1.0"/>
+</session>

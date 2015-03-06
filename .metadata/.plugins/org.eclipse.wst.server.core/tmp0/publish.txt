@@ -1,0 +1,3 @@
+#Tomcat publish data
+#Fri Mar 06 18:29:22 BRT 2015
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\joaol\\Desktop\\workspace\\contas\\WebContent\\WEB-INF\\lib\\spring-web-4.0.3.RELEASE.jar=WEB-INF/lib/spring-web-4.0.3.RELEASE.jar

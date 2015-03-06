@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\joaol\\Documents\\treinamento-dev\\.git;C\:\\Users\\PARIPASSU00296\\workspace\\.git;C\:\\Users\\joaol\\workspace\\.git;
-RepositorySearchDialogSearchPath=C\:\\Users\\joaol\\Documents
+GitRepositoriesView.GitDirectories=C\:\\Users\\joaol\\Desktop\\workspace\\.git;C\:\\Users\\joaol\\workspace\\treinamento-dev\\.git;C\:\\Users\\joaol\\git\\servlet-3-e-fundamentos-web\\.git;
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSearchPath=C\:\\Users\\joaol\\Documents\\treinamento-dev
 eclipse.preferences.version=1

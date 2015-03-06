@@ -1,0 +1,13 @@
+package br.com.caelum.contas.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class OlaMundoController {
+	
+	@RequestMapping()
+	public String execute(){
+		System.out.println("executando uma logica com spring mvc");
+		return "ok";
+	}
+}

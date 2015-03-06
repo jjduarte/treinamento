@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Lista contas</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Código</th>
+			<th>Descrição</th>
+			<th>Valor</th>
+			<th>Tipo</th>
+			<th>Pago?</th>
+			<th>Data de Pagamento</th>
+		</tr>
+		
+		<c:forEach var="conta" items="${contas}">
+			<tr>
+				<td>${conta.id}</td>
+				<td>${conta.descricao}</td>
+				<td>Valor</td>
+				<td>Tipo</td>
+				<td>Pago?</td>
+				<td>Data de Pagamento</td>
+			</tr>
+		</c:forEach>
+		
+	</table>
+</body>
+</html>
