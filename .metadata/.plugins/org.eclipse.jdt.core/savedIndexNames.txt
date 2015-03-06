@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.127+C:\Users\joaol\Desktop\workspace\.metadata\.plugins\org.eclipse.jdt.core
 4110170706.index
 167806059.index
@@ -80,3 +81,28 @@ INDEX VERSION 1.127+C:\Users\joaol\Desktop\workspace\.metadata\.plugins\org.ecli
 492821695.index
 2853342300.index
 2822469950.index
+=======
+INDEX VERSION 1.127+C:\Users\joaol\workspace\.metadata\.plugins\org.eclipse.jdt.core
+3486495239.index
+714156685.index
+1295690606.index
+56597819.index
+2739260532.index
+3273784186.index
+1839899457.index
+1448087735.index
+1773386031.index
+1315200265.index
+1963854087.index
+2895942126.index
+2997676581.index
+2940086946.index
+924468408.index
+282802218.index
+2092153357.index
+3038224025.index
+2262803414.index
+2143505834.index
+1753283041.index
+2364929894.index
+>>>>>>> 8885c0f4503d35c57e410d97dfe0611a8c8e995a
