@@ -10,6 +10,7 @@
 <h2>Página inicial da Lista de Contas</h2>
 <p>Bem vindo, ${usuarioLogado.login}</p>
 <a href="listaContas">Clique aqui</a> para acessar a lista de contas <br/>
-<a href="efetuaLogout">Clique aqui</a> para efetuar o logout.
+<a href="efetuaLogout">Clique aqui</a> para efetuar o logout.<br/>
+<a href="form">Clique aqui</a> criar uma nova conta.
 </body>
 </html>
